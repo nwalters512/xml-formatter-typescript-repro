@@ -8,7 +8,8 @@
   "private": true,
   "scripts": {
     "typecheck": "tsc --noEmit",
-    "start": "tsx src/index.ts"
+    "start-esm": "tsx src/index-esm.ts",
+    "start-cjs": "node src/index-cjs.cjs"
   },
   "dependencies": {
     "tsx": "^4.7.2",
